@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="orchard.css">
+    <title>Euclid's Orchard</title>
+    <!-- Conditionally load WC polyfills -->
+    <!-- Thanks to https://github.com/geelen/x-gif for the snippet -->
+    <script>if (!('registerElement' in document
+      && 'createShadowRoot' in HTMLElement.prototype
+      && 'import' in document.createElement('link')
+      && 'content' in document.createElement('template'))) {
+            document.write('<script src="bower_components/webcomponentsjs/webcomponents.min.js"><\/script>');
+      }</script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="src/html-include.js"></script>
+  </head>
+  <body>
+    <div id="content-wrapper">
+    <html-include src="header-orchard.html"></html-include>
+    <br /><br />
+    <div id="page-content">
+      <h1>Mission Statement</h1>
+      Euclid's Orchard serves to provide high quality handouts to teach those who are interested in a variety of subjects.
+      <h1>About Us</h1>
+      We are a group of students who enjoy learning and wanted to share that with others. Our name is <a href="https://en.wikipedia.org/wiki/Euclid%27s_orchard">Euclid's Orchard</a>, which is an array of one-dimensional "trees" of unit height planted at the lattice points in one quadrant of a square lattice.
+      In our orchard we serve:
+      <ul>
+        <li>Douady Rabbit</li>
+        <li>Ham Sandwich (Theorem)</li>
+        <li>Chicken Mcnugget (Theorem)</li>
+        <li>Minkowski Sausage</li>
+      </ul>
+      If it isn't obvious, these are all parts of math! I recommend you search these up - some of these are advanced, but its always fun to learn about weirdly named theorems.
+      <h2>Math Handouts</h2>
+      <h3>AMC-AIME Handouts</h3>
+      These handouts range from intermediate AMC to introductory AIME.
+      <ol>
+        <li>None here yet!</li>
+      </ol>
+      <h3>AIME-USA(J)MO Handouts</h3>
+      These handouts range from intermediate AIME to introductory USA(J)MO.
+      <ol>
+        <li>None here yet!</li>
+      </ol>
+    </div>
+    <html-include src="footer.html"></html-include>
+  </div>
+  </body>
+</html>
