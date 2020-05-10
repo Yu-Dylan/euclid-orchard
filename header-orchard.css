@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/css?family=Baloo+Chettan+2);
+
+#header-navbar {
+  font-family: 'Baloo Chettan 2', cursive;
+  background-color: #7ad489;
+  width: 100vw;
+	font-size: 24px;
+}
+
+.navbar {
+    margin: 0 auto; /* This should centre a block element */
+   /* display: inline-block; Remove this, it should be a block */
+   /* width: 100%; Remove this too, a block will be full width by default. 100% makes it wdier and makes a scroll bar */
+    text-align: center;
+}
+ 
+.mainheader {
+	/* float:left; Remove this, it keeps all the items to the left */
+	display: inline;
+    
+    color:white;
+    /* height: 50px; fixing heights is generally a bad idea, let the content define the height it needs */
+    margin: 
+    padding: -5 -5px
+}
+
+.button {
+      background-color: #89ff00;
+      border: none;
+      color: black;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      opacity: 0.6;
+      transition: 0.3s;
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .button:hover {opacity: 1}
