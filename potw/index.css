@@ -1,0 +1,67 @@
+@import url(//fonts.googleapis.com/css?family=Baloo+Chettan+2);
+
+@import url(https://fonts.googleapis.com/css?family=Overpass);
+
+#content-wrapper {
+  font-family: 'Baloo Chettan 2', cursive;
+  background-color: #ec6767;
+  width: 100vw;
+  height: 400vh;
+}
+
+#page-content {
+  width: 75vw;
+  min-width: 450px;
+  border: 1px solid #ae0000;
+  border-radius: 20px;
+  moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  background-color: #FFF0F0;
+  padding: 30px;
+  display: block;
+  margin: 0 auto !important;
+  color: black;
+  font-size: 18pt;
+}
+
+#page-content a {
+  color: #ee5148;
+}
+
+#page-content li {
+  font-family: 'Overpass';
+}
+
+.twoltip {
+  position: relative;
+  display: inline-block;
+}
+
+.twoltip .tooltiptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: red;
+  color: #555;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -160px;
+}
+
+.twoltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+.twoltip:hover .tooltiptext {
+  visibility: visible;
+}
